@@ -2,7 +2,7 @@
 Arduino OCF example code
 
 # Install Arduino-Code
-curl https://github.com/openconnectivity/Arduino-Code/raw/master/arduino/install.sh | bash
+curl https://openconnectivity.github.io/Arduino-Code/arduino/install.sh | bash
 
 # instructions to get started (on Linux)
 - Install Arduino IDE
