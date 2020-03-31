@@ -13,10 +13,9 @@ curl https://openconnectivity.github.io/Arduino-Code/arduino/install.sh | bash
   - cd ~/arduino-home
   - sudo ./install.sh
 - Install iotivity-lite version for Arduino
-  - cd ~
-  - git clone --recursive https://gerrit.iotivity.org/gerrit/iotivity-lite iotivity-lite
- - cd iotivity-lite
- - git fetch "https://gerrit.iotivity.org/gerrit/iotivity-lite" refs/changes/51/29451/3 && git checkout FETCH_HEAD
+ - cd ~
+ - curl https://openconnectivity.github.io/IOTivity-Lite-setup/install.sh | bash
+ - cd iot-lite
  - (optional?) Try Arduino to make sure it works
 - open the Arduino IDE
   - Load board support for the target board
